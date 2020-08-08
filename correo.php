@@ -49,7 +49,7 @@ try {
     
 
     $mail->send();
-    //echo 1;
+    echo 1;
 } catch (Exception $e) {
     //echo 0;
     echo "Mailer Error: " . $mail->ErrorInfo;
