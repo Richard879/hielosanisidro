@@ -14,7 +14,8 @@
 			 }
 		 }
 	 ).done(function(resp){
-		 if(resp>0){
+		 alert(resp);
+		 /*if(resp>0){
 			 Swal.fire("Mensaje De Confirmacion","Se envio el mensaje correctamente al correo: "+ email +"","success");
 			 $("#name").val("");
 			 $("#email").val("");
@@ -22,6 +23,6 @@
 			 $("#name").focus();
 		 }else{
 			Swal.fire("Mensaje De Error","No se pudo enviar el mensaje ","error");
-		 }
+		 }*/
 	 })
   }
