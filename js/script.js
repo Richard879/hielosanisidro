@@ -21,7 +21,8 @@
 			 $("#message").val("");
 			 $("#name").focus();
 		 }else{
-			Swal.fire("Mensaje De Error","No se pudo enviar el mensaje ","error");
+			alert(resp);
+			//Swal.fire("Mensaje De Error","No se pudo enviar el mensaje ","error");
 		 }
 	 })
   }

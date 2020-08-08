@@ -51,8 +51,8 @@ try {
     $mail->send();
     echo 1;
 } catch (Exception $e) {
-    echo 0;
-    //echo "Mailer Error: " . $mail->ErrorInfo;
+    //echo 0;
+    echo "Mailer Error: " . $mail->ErrorInfo;
 }
 
 //gmail no permite que php entre a tu cuenta asi que tienes que seguir los siguientes pasos
